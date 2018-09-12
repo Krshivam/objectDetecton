@@ -25,7 +25,7 @@ Using the command given below, XXXX in model.ckpt-XXXX will be replaced with the
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_pets.config --trained_checkpoint_prefix training/model.ckpt-XXXX --output_directory inference_graph
 Now run python img_detection.py to detect images\
 run python video_detection.py to detect in videos\
-ren python webcam_detect.py to detect using webcam\
+run python webcam_detect.py to detect using webcam
 
 
 
