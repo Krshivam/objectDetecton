@@ -30,7 +30,7 @@ run python webcam_detect.py to detect using webcam
 
 
 
-![alt text](https://drive.google.com/open?id=0Bw5_8KNja5w4R05uNWZnN204Yjd1NEhGaVVRN2MtcUE5WVRR)
+![alt text](https://raw.githubusercontent.com/Krshivam/object_detection_tensorflow/master/test_img.jpeg)
 
 
 
