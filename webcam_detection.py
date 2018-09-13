@@ -8,10 +8,10 @@ sys.path.append("..")
 from utils import label_map_util
 from utils import visualization_utils as vis_util 
 
-MODEL_NAME = 'infernce_graph9'
+MODEL_NAME = 'infernce_graph'
 CWD_PATH = os.getcwd()
 PATH_TO_CKPT = os.path.join(CWD_PATH,MODEL_NAME,'frozen_inference_graph.pb')
-PATH_TO_LABELS = os.path.join(CWD_PATH,'training1','labelmap.pbtxt')
+PATH_TO_LABELS = os.path.join(CWD_PATH,'training','labelmap.pbtxt')
 NUM_CLASSES = 4
 label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
 categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
