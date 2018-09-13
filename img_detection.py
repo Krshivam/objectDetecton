@@ -9,8 +9,8 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util 
 
 
-MODEL_NAME = 'infernce_graph9'
-IMAGE_NAME = 'test2.JPG'
+MODEL_NAME = 'infernce_graph'
+IMAGE_NAME = 'test_img.JPG'
 CWD_PATH = os.getcwd()
 PATH_TO_CKPT = os.path.join(CWD_PATH,MODEL_NAME,'frozen_inference_graph.pb')
 PATH_TO_LABELS = os.path.join(CWD_PATH,'training1','labelmap.pbtxt')
