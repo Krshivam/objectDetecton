@@ -18,7 +18,6 @@ In the same directory (i.e /models/research) run python setup.py build (via CLI)
 Then run python setup.py install \
 Now cd to root\
 cd to /root/models/research/object_detection\
-if you want train the model \
 #Run the training 
 copy and paste it in terminal python legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config\
 #Export inference graph
