@@ -25,13 +25,11 @@ Using the command given below, XXXX in model.ckpt-XXXX will be replaced with the
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_pets.config --trained_checkpoint_prefix training/model.ckpt-XXXX --output_directory inference_graph
 Now run python img_detection.py to detect images\
 run python video_detection.py to detect in videos\
-run python webcam_detect.py to detect using webcam
-
-
-
+run python webcam_detect.py to detect using webcam\
+# Image Detection
 ![alt text](https://github.com/Krshivam/object_detecton_tensorflow/blob/master/test_img.jpeg)
 
-
+# Video Detection
 [![Alt text](https://img.youtube.com/vi/FNyTmyKf4mo/0.jpg)](https://www.youtube.com/watch?v=FNyTmyKf4mo)
   
 
